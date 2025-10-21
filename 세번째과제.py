@@ -39,6 +39,7 @@
 
 # print(smallest,largest)
 
+#과제16
 # a = list(map(int, input("숫자 10개 입력:").split()))
 # b= sum(a)-min(a)-max(a)
 # print(b)
@@ -54,6 +55,33 @@
 # a = [i for i in range(1, 6)]
 # print(a)
 
-#과제18
-# a = [i for i in range(1, 6)]
+#과제19
+# a = [i for i in range(1, 20) if i%2==0]
 # print(a)
+
+#과제20
+# a, b = map(int, input().split())
+# c = [2 ** i for i in range(a, b + 1)]
+# del c[1]
+# del c[-2]
+# print(c)
+
+#21
+# text = input()
+# print(text.replace('Hello', 'Hi'))
+
+#22
+# chars = input().split()
+# print('/'.join(chars))
+
+#23
+# last_name = input()  # 예: KIM
+# print(last_name.lower().rjust(10))
+
+#24
+prices = input().split(';')
+
+prices = sorted([int(p) for p in prices], reverse=True)
+
+for price in prices:
+    print(str(price).rjust(9))
