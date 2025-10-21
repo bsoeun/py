@@ -51,5 +51,9 @@
 # print(a)
 
 #과제18
-a = 
+# a = [i for i in range(1, 6)]
+# print(a)
 
+#과제18
+# a = [i for i in range(1, 6)]
+# print(a)
